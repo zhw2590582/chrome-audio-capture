@@ -1,0 +1,17 @@
+{
+    "name": "audio-capture",
+    "version": "1.0.0",
+    "description": "Audio Capture Demo",
+    "manifest_version": 3,
+    "options_page": "options.html",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "tabCapture",
+        "scripting"
+    ],
+    "action": {}
+}
